@@ -26,15 +26,15 @@ export default class Global extends React.Component {
         return(
             
             <View style={{height: 100, width: 350, flexDirection: 'row', justifyContent: 'space-between'}}>
-                <View style={[styles.box, {backgroundColor: 'pink'}]}>
+                <View style={[styles.box, {backgroundColor: 'green'}]}>
                     <Text style={styles.text}>Positif</Text>
                     <Text style={styles.text}>{this.state.positif}</Text>
                 </View>
-                <View style={[styles.box, {backgroundColor: 'red'}]}>
+                <View style={[styles.box, {backgroundColor: 'yellow'}]}>
                     <Text style={styles.text}>Sembuh</Text>
                     <Text style={styles.text}>{this.state.sembuh}</Text>
                 </View>
-                <View style={[styles.box, {backgroundColor: 'orange'}]}>
+                <View style={[styles.box, {backgroundColor: 'red'}]}>
                     <Text style={styles.text}>Meninggal</Text>
                     <Text style={styles.text}>{this.state.meninggal}</Text>
                 </View>
