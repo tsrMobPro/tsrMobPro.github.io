@@ -59,11 +59,11 @@ class List extends React.Component {
                     <Text>{item.provinsi}</Text>
                         </View>
                 <View style={{flexDirection: 'row'}}>
-                        <View style= {{alignItems: 'center', height: 25, width: 55, borderRadius: 10, backgroundColor: 'gold', justifyContent: 'space-between'}}>
+                        <View style= {{alignItems: 'center', height: 25, width: 55, borderRadius: 10, backgroundColor: 'green', justifyContent: 'space-between'}}>
                     <Text>{item.kasusPosi}</Text>
                         </View>
                 <View style={{flexDirection: 'row'}}>
-                        <View style= {{alignItems: 'center', height: 25, width: 55, borderRadius: 10, backgroundColor: 'skyblue', justifyContent: 'space-between'}}>
+                        <View style= {{alignItems: 'center', height: 25, width: 55, borderRadius: 10, backgroundColor: 'yellow', justifyContent: 'space-between'}}>
                     <Text>{item.kasusSemb}</Text>
                         </View>
                 <View style={{flexDirection: 'row'}}>
